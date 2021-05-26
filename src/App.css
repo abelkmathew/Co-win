@@ -1,0 +1,277 @@
+*{
+    margin:0%;
+    padding: 0%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+    background: #fff;
+
+}
+
+
+/* GENERAL */
+
+.site-section{
+  padding-top: 10rem;
+  min-height: 80vh;
+}
+
+.section-title{
+  display: flex;
+  justify-content: center;
+}
+
+.card{
+  width: 18rem;
+  margin-bottom: 2rem;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}  
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.btn:hover,
+.btn:focus {
+    box-shadow: 0px 10px 18px 0px rgba(0, 0, 0, 0.15);
+}
+
+/************************* NAVBAR ***************************/
+
+.navbar{
+  background-color: #fcfcfc;
+}
+
+.nav-link{
+  color:#0f101b !important;
+  font-weight: 500;
+}
+
+.nav-link:hover{
+  background-color: rgb(255, 193, 7);
+  /* color:rgb(230, 233, 230) !important; */
+}
+.dropdown-item:hover{
+  background-color: rgb(255, 193, 7);
+}
+
+.loginbtn{
+  background-color: rgb(7,64,84) ;
+  color: #fff;
+}
+.loginbtn:hover{
+  background-color: rgb(255, 193, 18) !important;
+  color: rgb(7,64,84);
+}
+
+.loginicon{
+  background-color: rgb(255, 255, 255) !important;
+  margin-left: 20px;
+}
+
+
+
+.navbar-header a{
+  text-decoration: none;
+  font-size:larger;
+  font-weight: 700;
+  color: rgb(7,64,84) ;
+}
+
+.navbar-header span{
+  color: rgb(255,193, 7) ;
+}
+.navbar-header p{
+  font-size: 0.9rem;
+  color: rgb(7,64,84) ;
+  margin-bottom: -7px;
+}
+
+/**************************** HOME *********************/
+.hero{
+  background-image: url("./Components/assets/herobg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0 0 40% 40% ;
+  margin: 1rem 0px;
+  color: #fcfcfc;
+
+}
+
+marquee {
+  margin: 2rem;
+  text-decoration: none;
+  color: #f80707;
+  animation: blinktext1  5s infinite;
+  font-size: 20px;
+}
+
+@keyframes blinktext1 {
+  0%{color:blue}
+  50%{color: #f80707;}
+  100%{color: rgb(201, 11, 74);} 
+}
+
+marquee:hover {
+  color: #f80707;
+  animation: none;
+
+}
+
+.symptoms .row{
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.symptom-box{
+  background: rgb(248, 162, 2);
+  border-radius: 50%;
+  width: 110px;
+  height: 110px; 
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+
+  
+}
+
+.symptoms{
+  background-image: linear-gradient( to left,rgba( 145, 146, 122, 0.62), rgba(9, 67, 153, 0.58)) ,url("./Components/assets/img4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  background: -moz-linear-gradient();
+  
+}
+
+.symptoms .contact-card
+{
+  background: rgb(248, 162, 2);
+  padding: 2rem;
+  border-style:solid;
+  border-radius: 1rem;
+}
+
+.contact-card h4{
+  color:rgb(2, 1, 1) ;
+  padding-left: 20%;
+
+}
+
+.advice{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+}
+.advice .card{
+  background: rgb(248, 162, 2);
+  height:80px;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-weight: 700;
+  font-size: large;
+}
+
+
+
+
+.tollfree-num{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+}
+
+.tollfree-num h3{
+  padding-right: 1rem;
+}
+
+
+
+.helpline-num{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.carousel-caption{
+  color: #f80707;
+  font-size: large;
+}
+.partners .img{
+  width:250px;
+}
+.partner-logo{
+  padding-bottom: 2rem !important;
+}
+.partners .Umang-logo{
+  width:120px;
+
+}
+
+.partners .cis-logo{
+  width:200px;
+
+}
+
+
+
+.site-section2{
+  padding-top: 10rem;
+  min-height: 40vh;
+}
+  /************************ STATISTICS *******************/
+
+
+
+  /*************************** FAQ ************************/
+
+
+  /************************ DEPARTMENT *********************/
+
+
+
+  /*********************** VACCINATOR */
+
+
+
+  /* VERIFY CERTIFICATE */
+
+
+
+  /* LOGIN/REGISTER */
+
+/* Footer  */
+.footer{
+    background-color: rgb(13,40,51);
+    color:#fff;
+    font-size: 18px;
+
+}
+
+.footer img{
+    border-style: none;
+    vertical-align: middle;
+  }
+.footer .row{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .logos{
+ 
+ margin-bottom: 2rem;
+}
+
+.footer2{
+  display: flex;
+  justify-content: center !important;
+}
