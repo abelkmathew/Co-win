@@ -18,9 +18,13 @@ function Home() {
             <div className="site-section hero">
                 <div className="container">
                     <p><h1>Register for covid-19 <br></br>vaccination</h1></p>
-                    <button class="btn btn-warning">
-                      Click Here  
-                    </button>
+                    <a href="#RegisterHelp" class="btn btn-outline-warning">
+                      How to Register
+                    </a>
+                    <a href="#Login" class="btn btn-warning">
+                      Register Now
+                    </a>
+                    
                 </div>
             </div>
 
@@ -80,7 +84,7 @@ function Home() {
                 <div className="container">
                     <div className="section-titl"><h3>We Advice you</h3></div><br /><br />
                     <div className="row">
-                        {/* <div className="col-md-2 col-sm-0"></div> */}
+              
                         <div className="col-md-6 col-sm-12">
                             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                                 <div class="carousel-inner">

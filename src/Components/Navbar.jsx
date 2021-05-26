@@ -32,19 +32,23 @@ function Navbar(props) {
                                 <a className="nav-link" href="https://admin.cowin.gov.in/login">DEPARTMENT LOGIN</a> </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="https://app.cowin.gov.in/login" >VACCINATOR</a></li>    
-                            <li className={`nav-item  ${props.location.pathname === "/faq" ? "active" : ""}`}>
-                                <Link className="nav-link" to="/faq">VERIFY CERTIFICATE</Link></li>      
+                            <li className={`nav-item  ${props.location.pathname === "/verify" ? "active" : ""}`}>
+                                <Link className="nav-link" to="/verify">VERIFY CERTIFICATE</Link></li>      
                             <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         HELP
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                        <li><a class="dropdown-item" href="#">Guidelines</a></li>
+                                        <li className={`${props.location.pathname === "/faq" ? "active" : ""}`}>    
+                                            <Link className="dropdown-item" to="/faq">GUIDELINES</Link></li>
                                         <li className={`${props.location.pathname === "/faq" ? "active" : ""}`}>    
                                             <Link className="dropdown-item" to="/faq">FAQ</Link></li>
-                                        <li><a class="dropdown-item" href="#">How to Register</a></li>
+                                        <li className={`${props.location.pathname === "/RegisterHelp" ? "active" : ""}`}>    
+                                            <Link className="dropdown-item" to="/RegisterHelp">HOW TO REGISTER</Link></li>
+                                        
                                         <li><hr class="dropdown-divider"/></li>
-                                        <li><a class="dropdown-item" href="#">Contact Us</a></li>
+                                        <li className={`${props.location.pathname === "/Contact" ? "active" : ""}`}>    
+                                            <Link className="dropdown-item" to="/Contact">CONTACT </Link></li>
                                     </ul>
                                 </li>
 

@@ -11,7 +11,7 @@ body{
 }
 
 
-/* GENERAL */
+/***************************** GENERAL ***********************/
 
 .site-section{
   padding-top: 10rem;
@@ -54,7 +54,6 @@ body{
 
 .nav-link:hover{
   background-color: rgb(255, 193, 7);
-  /* color:rgb(230, 233, 230) !important; */
 }
 
 .dropdown-item{
@@ -99,6 +98,7 @@ body{
 }
 
 /**************************** HOME *********************/
+
 .hero{
   background-image: url("./Components/assets/herobg.jpg");
   background-repeat: no-repeat;
@@ -108,6 +108,12 @@ body{
   color: #fcfcfc;
 
 }
+
+.home .hero .btn {
+  margin-right:2rem;
+  margin-bottom: 2rem;
+}
+
 
 marquee {
   margin: 2rem;
@@ -153,7 +159,7 @@ marquee:hover {
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
-  background: -moz-linear-gradient();
+ 
   
 }
 
@@ -185,9 +191,6 @@ marquee:hover {
   font-weight: 700;
   font-size: large;
 }
-
-
-
 
 .tollfree-num{
   display:flex;
@@ -230,28 +233,74 @@ marquee:hover {
 }
 
 
-
 .site-section2{
   padding-top: 10rem;
   min-height: 40vh;
 }
-  /************************ STATISTICS *******************/
+
+
+/*************************** CONTACT  ******************/
+.contact .button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+
+}
+.Text-Bold{
+  padding-bottom: 1rem;
+}
 
 
 
-  /*************************** FAQ ************************/
+/************************* REGISTER HELP ************************/
+.register-help .card{
+  min-height:28vh;
+  padding-top: 1rem;
+}
+.register-help .card .icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:5rem;
+} 
+
+.yt_video{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+/******************* VERIFY CERTIFICATE ******************/
 
 
 
 
 
-  /* VERIFY CERTIFICATE */
+/********************* AVAILABILITY **********************/
 
 
 
-  /* LOGIN/REGISTER */
 
-/* Footer  */
+
+/************************ STATISTICS **********************/
+
+
+
+
+
+
+/********************** LOGIN/REGISTER ********************/
+  
+
+
+
+
+
+
+/************************** Footer  *************************/
 .footer{
     background-color: rgb(13,40,51);
     color:#fff;
@@ -277,3 +326,6 @@ marquee:hover {
   display: flex;
   justify-content: center !important;
 }
+
+
+ 
