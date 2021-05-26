@@ -40,7 +40,8 @@ function Navbar(props) {
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                         <li><a class="dropdown-item" href="#">Guidelines</a></li>
-                                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                                        <li className={`${props.location.pathname === "/faq" ? "active" : ""}`}>    
+                                            <Link className="dropdown-item" to="/faq">FAQ</Link></li>
                                         <li><a class="dropdown-item" href="#">How to Register</a></li>
                                         <li><hr class="dropdown-divider"/></li>
                                         <li><a class="dropdown-item" href="#">Contact Us</a></li>

@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Poppins', sans-serif;
-    color: rgb(0, 0, 0);
+    color: rgb(7,64,84);
     background: #fff;
 
 }
@@ -44,10 +44,11 @@ body{
 
 .navbar{
   background-color: #fcfcfc;
+  color:rgb(7,64,84) !important;
 }
 
 .nav-link{
-  color:#0f101b !important;
+  color:rgb(7,64,84) !important;
   font-weight: 500;
 }
 
@@ -55,6 +56,12 @@ body{
   background-color: rgb(255, 193, 7);
   /* color:rgb(230, 233, 230) !important; */
 }
+
+.dropdown-item{
+  color:rgb(7,64,84) !important;
+  text-decoration: none;
+}
+
 .dropdown-item:hover{
   background-color: rgb(255, 193, 7);
 }
@@ -235,11 +242,6 @@ marquee:hover {
   /*************************** FAQ ************************/
 
 
-  /************************ DEPARTMENT *********************/
-
-
-
-  /*********************** VACCINATOR */
 
 
 
