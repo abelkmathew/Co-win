@@ -6,11 +6,11 @@ import Umang_logo from './assets/logos/umang-logo-v1.png'
 import cis_logo from './assets/logos/csclogo.jpeg'
 
 
-
 import slider1 from './assets/slider1.jpg';
 import slider2 from './assets/slider2.jpg';
 import slider3 from './assets/slider3.jpg';
 import slider4 from './assets/slider4.png';
+
 
 function Home() {
     return (
@@ -160,9 +160,20 @@ function Home() {
                         </div>
                     </div>
                 </div>
+            </div><br /><br />
+            
+            <div className="section report">
+                <div className="container"><br /><br /><br />
+                    <div className="section-heading">
+                        <h2>India's Co-win Statistics</h2>
+                    </div>        
+                        <div className="col">
+                        <a href="https://dashboard.cowin.gov.in/" class="btn btn-danger">
+                                     View Report
+                        </a>
+                        </div><br /><br /><br />
+                </div>
             </div>
-            
-            
             
             <div className="site-section2 partners">
                 <div className="container">
@@ -193,19 +204,7 @@ function Home() {
                 </div>
 
 
-            
-            
-            
-            
-            
-            
-            
             </div>
-
-
-
-
-
         </div>
     )
 }

@@ -238,7 +238,9 @@ marquee:hover {
   min-height: 40vh;
 }
 
-
+.report{
+  background-image:linear-gradient(to top,rgba(250, 163, 2, 0.884),rgba(245, 243, 236, 0.6)) !important;
+}
 /*************************** CONTACT  ******************/
 .contact .button{
   display: flex;
@@ -322,7 +324,7 @@ marquee:hover {
  margin-bottom: 2rem;
 }
 
-.footer2{
+.footer2 p{
   display: flex;
   align-items: center;
   justify-content: center ;

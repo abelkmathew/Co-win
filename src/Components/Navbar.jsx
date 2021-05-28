@@ -12,8 +12,9 @@ function Navbar(props) {
                 <div className="container">
             
                     <div className="navbar-header navbar-brand">  
-                        <div className="nav-item" >        
-                            <a href="/home">C<span>o</span>-WIN</a> 
+                        <div className={`nav-item  ${props.location.pathname === "/" ? "active" : ""}`} >
+                                    
+                            <a href="#">C<span>o</span>-WIN</a> 
                             <p>Winning Over Covid-19</p>
                         </div>   
                     </div>
@@ -45,15 +46,13 @@ function Navbar(props) {
                                     </a>
                                     <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                         <li className={`${props.location.pathname === "/faq" ? "active" : ""}`}>    
-                                            <Link className="dropdown-item" to="/faq">GUIDELINES</Link></li>
-                                        <li className={`${props.location.pathname === "/faq" ? "active" : ""}`}>    
                                             <Link className="dropdown-item" to="/faq">FAQ</Link></li>
                                         <li className={`${props.location.pathname === "/RegisterHelp" ? "active" : ""}`} >    
                                             <Link className="dropdown-item" to="/RegisterHelp">HOW TO REGISTER</Link></li>
                                         
                                         <li><hr class="dropdown-divider"/></li>
                                         <li className={`${props.location.pathname === "/Contact" ? "active" : ""}`} >    
-                                            <Link className="dropdown-item" to="/Contact">CONTACT </Link></li>
+                                            <Link className="dropdown-item" to="/Contact">CONTACT US</Link></li>
                                     </ul>
                                 </li>
 
