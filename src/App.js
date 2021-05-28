@@ -2,7 +2,7 @@ import React from "react";
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import { Navbar,Footer,Home,Faq,Statistics,Verify,Login,RegisterHelp,Contact} from "./Components";
 import './App.css'
-
+import './responsive.css'
 
 function App() {
   return (

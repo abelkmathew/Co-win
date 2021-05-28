@@ -21,7 +21,7 @@ function Home() {
                     <a href="#RegisterHelp" class="btn btn-outline-warning">
                       How to Register
                     </a>
-                    <a href="#Login" class="btn btn-warning">
+                    <a href="https://selfregistration.cowin.gov.in/" class="btn btn-warning">
                       Register Now
                     </a>
                     
@@ -30,11 +30,6 @@ function Home() {
 
             <marquee  scrollamount="10"><h3>Register yourself for covid-19 vaccinaion</h3> </marquee>
                 
-            
-            
-            
-            
-            
             
             
             <div className="site-section symptoms">
@@ -59,9 +54,9 @@ function Home() {
                                 <div className="col-md-4 symptom-box">
                                 <p className="Taste-smell" style={{paddingTop:'4px' ,paddingLeft:'8px'}}>Loss of Taste & Smell</p>
                                 </div>
-                            </div>                                                                                    
+                            </div><br /><br />                                                                                    
                         </div>   
-
+                        
                         <div className="col-md-6">                            
                             <div class="contact-card">                                         
                                 <div className="help">
@@ -75,7 +70,7 @@ function Home() {
                                 </div>                               
                             </div>                            
                         </div>
-                    </div>
+                    </div><br /><br />
                 </div>                                
             </div>
 

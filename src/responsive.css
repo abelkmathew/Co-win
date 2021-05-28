@@ -1,0 +1,65 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .footer .logos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer2 a{
+        font-size: small; 
+      }
+    .partners .partner-logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .advice .card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    
+    .hero{
+        border-radius: 0 0 20% 0% ;
+        min-height: 40vh;
+    }
+    .loginicon{
+        background-color: rgb(255, 255, 255) !important;
+        margin-left: 0;
+      }
+ 
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .hero{
+        border-radius: 0 0 20% 0% ;
+        min-height: 60vh;
+    }
+    .loginicon{
+        background-color: rgb(255, 255, 255) !important;
+        margin-left: 0;
+      }
+ }
+
+/*  Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .hero{
+        border-radius: 0 0 30% 30% ;
+    }
+
+  }
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {  }
+
+/* XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width */

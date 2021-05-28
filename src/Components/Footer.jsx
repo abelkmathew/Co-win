@@ -59,7 +59,7 @@ function Footer() {
 
           <hr/>
           <div className="row footer2">
-              Ministry of Health and Family Welfare, Govt. of India <br /><br />
+              <p><a href="https://www.india.gov.in/">Ministry of Health and Family Welfare, Govt. of India</a></p> <br /><br />
           </div>
 
         </div>

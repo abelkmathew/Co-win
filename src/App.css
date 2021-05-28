@@ -116,7 +116,7 @@ body{
 
 
 marquee {
-  margin: 2rem;
+  margin:2rem 0rem;
   text-decoration: none;
   color: #f80707;
   animation: blinktext1  5s infinite;
@@ -255,7 +255,7 @@ marquee:hover {
 
 /************************* REGISTER HELP ************************/
 .register-help .card{
-  min-height:28vh;
+  min-height:40vh;
   padding-top: 1rem;
 }
 .register-help .card .icons{
@@ -324,8 +324,14 @@ marquee:hover {
 
 .footer2{
   display: flex;
-  justify-content: center !important;
+  align-items: center;
+  justify-content: center ;
+  
 }
-
+.footer2 a{
+  text-decoration: none;
+  color: #fff;
+  
+}
 
  

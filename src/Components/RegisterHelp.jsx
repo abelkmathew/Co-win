@@ -11,7 +11,8 @@ function RegisterHelp() {
                         <div className="col-md-3">
                             <div class="card" >
                                 <div className="icons"><i class="fas fa-file-invoice"></i></div>
-                                <div class="card-body">
+                                <div class="card-body"><br />
+                                    <h5 class="card-title">REGISTER YOURSELF</h5><br />
                                     <p class="card-text">Register using your Mobile no. or Aadhar no. or any other identity docs.</p>
                                 </div>
                             </div>
@@ -19,7 +20,8 @@ function RegisterHelp() {
                         <div className="col-md-3">
                             <div class="card" >
                             <div className="icons"><i class="far fa-hospital"></i></div>
-                                <div class="card-body">
+                                <div class="card-body"><br />
+                                    <h5 class="card-title">CHOOSE VACCINE CENTER</h5><br />
                                     <p class="card-text">Select your Vaccine Center for vaccination</p>
                                 </div>
                             </div>
@@ -27,7 +29,8 @@ function RegisterHelp() {
                         <div className="col-md-3">
                             <div class="card" >
                             <div className="icons"><i class="fas fa-clipboard-check"></i></div>
-                                <div class="card-body">
+                                <div class="card-body"><br />
+                                    <h5 class="card-title">CONFIRM YOUR SLOT</h5><br />
                                     <p class="card-text">Book your slot to get Vaccine</p>
                                 </div>
                             </div>
@@ -35,7 +38,8 @@ function RegisterHelp() {
                         <div className="col-md-3">
                             <div class="card" >
                             <div className="icons"><i class="fas fa-question"></i></div>
-                                <div class="card-body">
+                                <div class="card-body"><br />
+                                    <h5 class="card-title">ANY QUESTIONS?</h5><br />
                                     <p class="card-text">Please check Frequently asked questions(<a href="#faq">FAQ</a>)</p>
                                 </div>
                             </div>
